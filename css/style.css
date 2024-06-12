@@ -39,6 +39,19 @@ body {
   border-bottom: 10px none transparent;
 }
 
+.button-container button {
+  background-color: white;
+  border: 2px solid #c7ced2;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 1.5px;
+}
+
+button.button-focus {
+  background-color: #14aaf5;
+  border-color: #14aaf5;
+}
+
 ul {
   list-style: none;
 }
@@ -78,4 +91,38 @@ li {
 .dot-red {
   color: #ff1515;
   border-color: #ff1515;
+}
+
+/* list badge */
+.badge {
+  display: inline-block;
+  padding: 3px 7px;
+  font-size: 10px;
+  color: white;
+  border: 3px solid transparent;
+  border-radius: 13px;
+}
+
+.badge-blue {
+  background-color: #09a9ed;
+}
+
+.badge-purple {
+  background-color: #ab5de6;
+}
+
+.badge-aquamarine {
+  background-color: #2cc6ab;
+}
+
+.badge-orange {
+  background-color: #ff9b00;
+}
+
+.badge-magenta {
+  background-color: #ec4a9d;
+}
+
+.badge-green {
+  background-color: #a3d116;
 }
