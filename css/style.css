@@ -1,5 +1,41 @@
 * {
-  border: 0;
+  padding: 0;
   margin: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f8f9;
+}
+
+/*  HEADER */
+.page-header {
+  padding: 20px 12px;
+}
+
+.page-header * {
+  vertical-align: middle;
+}
+
+
+/* main */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.page-content {
+  padding: 20px;
+}
+
+.button-space {
+  border-bottom: 2px solid lightgray;
+}
+
+ul {
+  list-style: none;
 }
