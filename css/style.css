@@ -89,7 +89,7 @@ li {
 .list-dot {
   width: 20px;
   height: 20px;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   display: inline-block;
   border: 2px solid;
@@ -99,19 +99,18 @@ li {
 
 .dot-green {
   color: #80dccc;
-  border-color: #80dccc;
 }
 
 .dot-red {
   color: #ff1515;
-  border-color: #ff1515;
 }
 
 /* list badge */
 .badge {
   display: inline-block;
-  padding: 3px 7px;
+  padding: 7px;
   font-size: 10px;
+  line-height: 6px;
   color: white;
   border: 3px solid transparent;
   border-radius: 13px;
